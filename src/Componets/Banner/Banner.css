@@ -1,0 +1,27 @@
+
+.banner-container {
+    text-align: center;
+    padding: 15% 0;
+}
+ .h1 {
+    margin: 0;
+    color: rgb(233, 240, 240);
+    
+    font-size: 62px;
+    font-weight: bold;
+
+ }
+
+ .p {
+    font-size: 30px;
+    color: beige;
+    opacity: 0,7;
+ }
+
+ .banner {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-image:  url("https://images.pexels.com/photos/2118045/pexels-photo-2118045.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+
+    }
