@@ -1,9 +1,10 @@
 import React from 'react'
 
-const CartCounter = () => {
+const CartCounter = ({quanty}) => {
   return (
     <div>
         <p className='counter-button'>+</p>
+        <p>{quanty}</p>
         <p>-</p>
       
     </div>

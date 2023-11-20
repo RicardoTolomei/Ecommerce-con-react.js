@@ -12,7 +12,7 @@ const CarElements = () => {
         <div className="cartContent" key={product.id}>
             <img src= {product.img} alt="product-cart"/>
             <h3 className="name">{product.name}</h3>
-            <CartCounter></CartCounter>
+            <CartCounter quanty={product.quanty}></CartCounter>
             <h4 className="price">{product.price}$</h4>
 
         </div>
