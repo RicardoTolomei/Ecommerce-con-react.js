@@ -3,7 +3,13 @@ import Banner from "../Banner/Banner";
 import Product from "../Products/Product";
 import ToDo from "../ToDo";
 import TodoList from "../TodoList";
+import { useTodo } from "../../hooks/useTodo";
+import './home.css';
+
+
+
 const Home = () => {
+    
 
     return(
         <>
@@ -11,7 +17,8 @@ const Home = () => {
          <Banner/>
          <Product/>
          <ToDo></ToDo>
-         <TodoList></TodoList>
+         <TodoList
+           ></TodoList>
 
 
          

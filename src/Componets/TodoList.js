@@ -1,13 +1,22 @@
 import React from 'react'
 import TodoItem from './TodoItem'
 
-const TodoList = () => {
-  return <>
+
+
+
+
+ const TodoList = () => {
   
-  <ul>
- <TodoItem></TodoItem>
-  </ul>
-  </>
-}
+  return (
+    
+		<ul>
+			
+				<TodoItem
+				/>
+			
+		</ul>
+    
+	);
+};
 
 export default TodoList
